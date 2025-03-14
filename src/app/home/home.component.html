@@ -6,7 +6,7 @@
 
     <!-- Mostrar u ocultar mensaje -->
     <button (click)="cambiarMensaje()">
-        {{ monstrarMensaje ? 'Ocultar Mensaje' : 'Mostrar Mensaje' }}
+        {{ monstrarMensaje ? 'Buscar Productos' : 'Mostrar Mensaje' }}
     </button>
     <p *ngIf="monstrarMensaje" class="mensaje">
         ¡Este es un mensaje dinámico!
@@ -15,8 +15,14 @@
     <!-- Lista de servicios -->
     <h2>Nuestros Servicios</h2>
     <ul>
-        <li *ngFor="let servicio of servicios">{{ servicio }}</li>
+        <li *ngFor="let servicio of servicios">{{ servicios }}</li>
     </ul>
+
+    <div class="subtitulos">
+        <p>Invesment</p>
+        <p>Tecnology</p>
+        <p>Desing</p>
+    </div>
 
     <!-- Imagen o ícono -->
     <div class="imagen-container">

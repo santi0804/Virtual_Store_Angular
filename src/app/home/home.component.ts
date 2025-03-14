@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
    // Variables para datos dinámicos
   titulo: string = "Welcome To My Virtual Store";
-  descripcion: string = "Aqui encontraras lo mas actualizado en productos";
+  descripcion: string = "Aqui encontraras lo mas actualizado en productos tecnólogicos";
   servicios: string [] = ["Tecnologia","Diseño","Inversiones"];
   monstrarMensaje: boolean = true;
 
