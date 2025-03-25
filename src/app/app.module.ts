@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { Navbar } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { BotonesComponent } from './botones/botones.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ContadorComponent,
         HomeComponent,
-        Navbar
+        Navbar,
+        BotonesComponent
 
     ],
     imports: [

@@ -54,7 +54,7 @@
   
   .home-image {
     width: 40%;
-    max-width: 150px;
+    max-width: 30vh;
     border-radius: 100px;
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,7 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 400px;
     right: 400px;
     padding: 0 20px;
