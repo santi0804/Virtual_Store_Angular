@@ -1,11 +1,9 @@
+
 <div class="container-b">
     <div class="container-b1">
-        <button [class.disabled]="button_disabled" class="btn btn-danger"
-            (click)="text_color = 'text-danger'">Rojo</button>
-        <button [class.disabled]="button_disabled" class="btn btn-success mx-2"
-            (click)="text_color = 'text-success'">Verde</button>
-        <button [class.disabled]="button_disabled" class="btn btn-primary"
-            (click)="text_color = 'text-primary'">Azul</button>
+        <button [class.disabled]="button_disabled" class="btn btn-danger" (click)="text_color = 'text-danger'">Rojo</button>
+        <button [class.disabled]="button_disabled" class="btn btn-success mx-2" (click)="text_color = 'text-success'">Verde</button>
+        <button [class.disabled]="button_disabled" class="btn btn-primary" (click)="text_color = 'text-primary'">Azul</button>
     </div>
 
     <div>
@@ -13,7 +11,7 @@
     </div>
 
     <div class="button_habi">
-        <!-- boton con la logica de lo contrario si esta true devuelve false -->
+        <!-- boton con la logica de lo contrario si esta true devuelve false habilita y desahbilita los botones. -->
         <button class="btn btn-secondary" (click)="button_disabled = !button_disabled"> Activar/Desactivar </button>
     </div>
 </div>

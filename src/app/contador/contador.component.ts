@@ -10,7 +10,7 @@ export class ContadorComponent {
 
     numero: number = 1;
 
-    decrementar() {      // asi se puede realizar la operacion de menos dentro del metos igual para auemntarla.
+    decrementar() {      // asi se puede realizar la operacion de menos dentro del metodo igual para auemntarla.
         this.numero--;
     }
 

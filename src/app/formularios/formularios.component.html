@@ -1,0 +1,32 @@
+<div class="form-container">
+    <form class="custom-form">
+        <h2 class="form-title">Formulario de Registro</h2>
+
+        <div class="form-group">
+            <input type="text" placeholder="Ingrese nombre" class="form-input" #name>
+            <span class="input-icon">👤</span>
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Ingrese apellido" class="form-input" #lastname>
+            <span class="input-icon">👥</span>
+        </div>
+
+        <div class="form-group">
+            <input type="email" placeholder="Ingrese correo" class="form-input" #email>
+            <span class="input-icon">✉️</span>
+        </div>
+
+        <div class="form-group">
+            <input type="tel" placeholder="Número de celular" class="form-input" #phone>
+            <span class="input-icon">📱</span>
+        </div>
+
+        <button type="submit" class="submit-btn" (click)="mostrar_en_consola(
+        name.value,
+        lastname.value,
+        email.value,
+        phone.value
+        )">Enviar Datos</button>
+    </form>
+</div>
