@@ -12,10 +12,10 @@ export class FormulariosComponent {
     name: string,
     lastname: string,
     email: string,
-    phone: string
+    phone: string,
   ) {
-    // Crear objeto con los datos
-    const formData = {
+
+    const formData = {    // Crear objeto con los datos
       nombre: name,
       apellido: lastname,
       correo: email,
